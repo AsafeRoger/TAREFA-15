@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio()
+	{
+		inteiro km
+		real multa=0
+		escreva("A quantos km/h você passou pelo radar?: ")
+		leia(km)
+		se(km>80){
+			multa=(km-80)*7
+			escreva("\nvoce vai ser multado! O senhor tem que pagar R$", multa, " de multa.\n")
+		} senao{
+			escreva("\nnao avera multa\n")
+		}
+	}
+}
